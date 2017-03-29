@@ -118,7 +118,7 @@ public class omnitureImplementation extends ReactContextBaseJavaModule {
     }
     @ReactMethod
     public void setContext(final ReadableMap contextData) {
-        Config.setContext(getReactApplicationContext(), contextData);
+        Config.collectLifecycleData(getReactApplicationContext().getCurrentActivity(), this.convert(contextData));
     }
     @ReactMethod
     public void setEnvironment() {
