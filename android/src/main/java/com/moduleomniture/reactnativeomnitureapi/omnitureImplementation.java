@@ -117,6 +117,10 @@ public class omnitureImplementation extends ReactContextBaseJavaModule {
         Analytics.trackState((String)state, this.convert(contextData));
     }
     @ReactMethod
+    public void setContext(final ReadableMap contextData) {
+        Config.setContext(getReactApplicationContext(), contextData);
+    }
+    @ReactMethod
     public void setEnvironment() {
         Toast.makeText(getReactApplicationContext(),"Hello",Toast.LENGTH_LONG).show();
     }
