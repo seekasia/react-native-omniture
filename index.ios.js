@@ -12,7 +12,7 @@ module.exports = {
   trackState : (str, obj)  => {
     RNOmniture.trackState(str, obj)
   },
-  trackState : (obj)  => {
+  collectLifecycleData : (obj)  => {
     RNOmniture.collectLifecycleDataWithAdditionalData(obj)
   }
 }

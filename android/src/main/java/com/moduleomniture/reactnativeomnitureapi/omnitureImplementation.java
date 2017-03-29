@@ -117,7 +117,7 @@ public class omnitureImplementation extends ReactContextBaseJavaModule {
         Analytics.trackState((String)state, this.convert(contextData));
     }
     @ReactMethod
-    public void setContext(final ReadableMap contextData) {
+    public void collectLifecycleData(final ReadableMap contextData) {
         Config.collectLifecycleData(getReactApplicationContext().getCurrentActivity(), this.convert(contextData));
     }
     @ReactMethod
