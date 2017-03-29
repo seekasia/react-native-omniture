@@ -28,10 +28,4 @@ RCT_EXPORT_METHOD(trackState:(NSString *)page contextData:(NSDictionary *)contex
 
 }
 
-RCT_EXPORT_METHOD(collectLifecycleDataWithAdditionalData:(NSDictionary *)contextData)
-{
-    NSLog(@"Calling collectLifecycleData %@", contextData);
-    [ADBMobile collectLifecycleDataWithAdditionalData:contextData];
-}
-
 @end
