@@ -11,5 +11,8 @@ module.exports = {
   },
   trackState : (str, obj)  => {
     RNOmniture.trackState(str, obj)
+  },
+  trackState : (obj)  => {
+    RNOmniture.collectLifecycleDataWithAdditionalData(obj)
   }
 }
