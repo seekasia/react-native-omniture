@@ -26,7 +26,6 @@
 		2DDB46A51DCA7ED500396D0B /* libreactnativeomnitureapi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreactnativeomnitureapi.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDB46C11DCA80C700396D0B /* reactnativeomnitureapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reactnativeomnitureapi.h; sourceTree = "<group>"; };
 		2DDB46C21DCA80C700396D0B /* reactnativeomnitureapi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reactnativeomnitureapi.m; sourceTree = "<group>"; };
-		2DDB46C81DCA84A300396D0B /* ADBMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBMobile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +42,6 @@
 		2DDB469C1DCA7ED500396D0B = {
 			isa = PBXGroup;
 			children = (
-				2DDB46C81DCA84A300396D0B /* ADBMobile.h */,
 				2DDB46C11DCA80C700396D0B /* reactnativeomnitureapi.h */,
 				2DDB46C21DCA80C700396D0B /* reactnativeomnitureapi.m */,
 				2DDB46A61DCA7ED500396D0B /* Products */,
