@@ -1,11 +1,12 @@
 {
   "name": "react-native-omniture",
-  "version": "0.0.1",
+  "version": "2.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+  "homepage": "https://github.com/seekasia/react-native-omniture",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vivekparekh8/react-native-omniture"

@@ -7,12 +7,11 @@
 //
 
 #import "reactnativeomnitureapi.h"
-#import "ADBMobile.h"
+#import <ADBMobile.h>
 
 @implementation reactnativeomnitureapi
 
 RCT_EXPORT_MODULE();
-
 
 RCT_EXPORT_METHOD(trackAction:(NSString *)page contextData:(NSDictionary *)contextData)
 {
